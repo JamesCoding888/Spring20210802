@@ -3,6 +3,14 @@ package com.study.spring.case02;
 public class Size {
 	private Integer id;
 	private String name;
+	public Size() {
+		
+	}
+	public Size(Integer id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
 	public Integer getId() {
 		return id;
 	}

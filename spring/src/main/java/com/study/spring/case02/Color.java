@@ -3,6 +3,14 @@ package com.study.spring.case02;
 public class Color {
 	private Integer id;
 	private String name;
+	public Color() {
+		
+	}
+	public Color(Integer id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
 	public Integer getId() {
 		return id;
 	}
